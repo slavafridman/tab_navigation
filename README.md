@@ -1,16 +1,24 @@
 # tab_navigation
 
-A new Flutter project.
+A Flutter project demonstrating tab-based navigation using [go_router](https://pub.dev/packages/go_router) with nested navigation and authentication flow.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Tab navigation with three main sections (A, B, C)
+- Nested navigation within each tab
+- Login screen and authentication flow
+- Route management using `GoRouter`
+- Custom root and shell navigators for advanced navigation scenarios
 
-A few resources to get you started if this is your first Flutter project:
+## Route Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[GoRouter] Full paths for routes:
+           ├─/ (Home)
+           ├─/login (LoginScreen)
+           └─ (ShellRoute)
+             ├─/a 
+             │ └─/a/internal (ScreenAInternal)
+             ├─/b 
+             │ └─/b/internal (ScreenBinternal)
+             └─/c 
+               └─/c/binternal (ScreenBinternal)
