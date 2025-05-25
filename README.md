@@ -12,7 +12,7 @@ A Flutter project demonstrating tab-based navigation using [go_router](https://p
 
 ## Route Structure
 
-[GoRouter] Full paths for routes:
+[GoRouter] Full paths for routes:  
             ├─/ (Home)  
             ├─/login (LoginScreen)  
             └─ (ShellRoute)  
