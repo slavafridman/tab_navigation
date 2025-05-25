@@ -1,5 +1,3 @@
-import 'package:tab_navigation/screen_c_internal.dart';
-
 import 'screen_b.dart';
 import 'package:flutter/material.dart';
 import 'package:tab_navigation/home.dart';
@@ -7,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'scaffold_with_nested_navigation.dart';
 import 'package:tab_navigation/root_screen.dart';
 import 'package:tab_navigation/login_screen.dart';
+import 'package:tab_navigation/screen_c_internal.dart';
 import 'package:tab_navigation/screen_a_internal.dart';
 import 'package:tab_navigation/screen_b_internal.dart';
 
