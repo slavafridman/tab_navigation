@@ -12,13 +12,5 @@ A Flutter project demonstrating tab-based navigation using [go_router](https://p
 
 ## Route Structure
 
-[GoRouter] Full paths for routes:  
-            ├─/ (Home)  
-            ├─/login (LoginScreen)  
-            └─ (ShellRoute)  
-              ├─/a  
-              │ └─/a/internal (ScreenAInternal)  
-              ├─/b  
-              │ └─/b/internal (ScreenBinternal)  
-              └─/c  
-                └─/c/internal (ScreenCinternal)  
+![image](https://github.com/user-attachments/assets/d9d0f49f-257e-42d0-8a5f-293ef5a54fb6)
+
